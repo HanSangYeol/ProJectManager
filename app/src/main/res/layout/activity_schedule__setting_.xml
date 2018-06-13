@@ -120,14 +120,12 @@
         android:gravity="center">
 
         <ImageView
-            android:id="@+id/mon"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_margin="5dp"
             android:background="#8C88FF" />
 
         <ImageView
-            android:id="@+id/mon1"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_margin="5dp"
