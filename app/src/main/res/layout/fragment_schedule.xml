@@ -71,6 +71,7 @@
             android:layout_weight="0.5"
             android:text="9"/>
         <TextView
+            android:gravity="center"
             android:onClick="schedule_setting"
             android:tag="mon_1"
             android:layout_width="0dp"
@@ -80,17 +81,20 @@
             android:layout_width="1dp"
             android:layout_height="match_parent"
             android:background="@color/Light_gray"/>
+
         <TextView
-            android:onClick="schedule_setting"
-            android:tag="tue_1"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:gravity="center"
+            android:onClick="schedule_setting"
+            android:tag="tue_1" />
         <TextView
             android:layout_width="1dp"
             android:layout_height="match_parent"
             android:background="@color/Light_gray"/>
         <TextView
+            android:gravity="center"
             android:onClick="schedule_setting"
             android:tag="wed_1"
             android:layout_width="0dp"
@@ -101,6 +105,7 @@
             android:layout_height="match_parent"
             android:background="@color/Light_gray"/>
         <TextView
+            android:gravity="center"
             android:onClick="schedule_setting"
             android:tag="thu_1"
             android:layout_width="0dp"
@@ -111,6 +116,7 @@
             android:layout_height="match_parent"
             android:background="@color/Light_gray"/>
         <TextView
+            android:gravity="center"
             android:onClick="schedule_setting"
             android:tag="fri_1"
             android:layout_width="0dp"
@@ -136,6 +142,7 @@
             android:layout_weight="0.5"
             android:text="10"/>
         <TextView
+            android:gravity="center"
             android:onClick="schedule_setting"
             android:tag="mon_2"
             android:layout_width="0dp"
@@ -146,6 +153,7 @@
             android:layout_height="match_parent"
             android:background="@color/Light_gray"/>
         <TextView
+            android:gravity="center"
             android:onClick="schedule_setting"
             android:tag="tue_2"
             android:layout_width="0dp"
@@ -156,6 +164,7 @@
             android:layout_height="match_parent"
             android:background="@color/Light_gray"/>
         <TextView
+            android:gravity="center"
             android:onClick="schedule_setting"
             android:tag="wed_2"
             android:layout_width="0dp"
@@ -166,6 +175,7 @@
             android:layout_height="match_parent"
             android:background="@color/Light_gray"/>
         <TextView
+            android:gravity="center"
             android:onClick="schedule_setting"
             android:tag="thu_2"
             android:layout_width="0dp"
@@ -176,6 +186,7 @@
             android:layout_height="match_parent"
             android:background="@color/Light_gray"/>
         <TextView
+            android:gravity="center"
             android:onClick="schedule_setting"
             android:tag="fri_2"
             android:layout_width="0dp"
@@ -201,6 +212,7 @@
             android:layout_weight="0.5"
             android:text="11"/>
         <TextView
+            android:gravity="center"
             android:onClick="schedule_setting"
             android:tag="mon_3"
             android:layout_width="0dp"
@@ -211,6 +223,7 @@
             android:layout_height="match_parent"
             android:background="@color/Light_gray"/>
         <TextView
+            android:gravity="center"
             android:onClick="schedule_setting"
             android:tag="tue_3"
             android:layout_width="0dp"
@@ -221,6 +234,7 @@
             android:layout_height="match_parent"
             android:background="@color/Light_gray"/>
         <TextView
+            android:gravity="center"
             android:onClick="schedule_setting"
             android:tag="wed_3"
             android:layout_width="0dp"
@@ -231,6 +245,7 @@
             android:layout_height="match_parent"
             android:background="@color/Light_gray"/>
         <TextView
+            android:gravity="center"
             android:onClick="schedule_setting"
             android:tag="thu_3"
             android:layout_width="0dp"
@@ -241,6 +256,7 @@
             android:layout_height="match_parent"
             android:background="@color/Light_gray"/>
         <TextView
+            android:gravity="center"
             android:onClick="schedule_setting"
             android:tag="fri_3"
             android:layout_width="0dp"
@@ -266,6 +282,7 @@
             android:layout_weight="0.5"
             android:text="12"/>
         <TextView
+            android:gravity="center"
             android:onClick="schedule_setting"
             android:tag="mon_4"
             android:layout_width="0dp"
@@ -276,6 +293,7 @@
             android:layout_height="match_parent"
             android:background="@color/Light_gray"/>
         <TextView
+            android:gravity="center"
             android:onClick="schedule_setting"
             android:tag="tue_4"
             android:layout_width="0dp"
@@ -286,6 +304,7 @@
             android:layout_height="match_parent"
             android:background="@color/Light_gray"/>
         <TextView
+            android:gravity="center"
             android:onClick="schedule_setting"
             android:tag="wed_4"
             android:layout_width="0dp"
@@ -296,6 +315,7 @@
             android:layout_height="match_parent"
             android:background="@color/Light_gray"/>
         <TextView
+            android:gravity="center"
             android:onClick="schedule_setting"
             android:tag="thu_4"
             android:layout_width="0dp"
@@ -306,6 +326,7 @@
             android:layout_height="match_parent"
             android:background="@color/Light_gray"/>
         <TextView
+            android:gravity="center"
             android:onClick="schedule_setting"
             android:tag="fri_4"
             android:layout_width="0dp"
@@ -331,6 +352,7 @@
             android:layout_weight="0.5"
             android:text="1"/>
         <TextView
+            android:gravity="center"
             android:onClick="schedule_setting"
             android:tag="mon_5"
             android:layout_width="0dp"
@@ -341,6 +363,7 @@
             android:layout_height="match_parent"
             android:background="@color/Light_gray"/>
         <TextView
+            android:gravity="center"
             android:onClick="schedule_setting"
             android:tag="tue_5"
             android:layout_width="0dp"
@@ -351,6 +374,7 @@
             android:layout_height="match_parent"
             android:background="@color/Light_gray"/>
         <TextView
+            android:gravity="center"
             android:onClick="schedule_setting"
             android:tag="wed_5"
             android:layout_width="0dp"
@@ -361,6 +385,7 @@
             android:layout_height="match_parent"
             android:background="@color/Light_gray"/>
         <TextView
+            android:gravity="center"
             android:onClick="schedule_setting"
             android:tag="thu_5"
             android:layout_width="0dp"
@@ -371,6 +396,7 @@
             android:layout_height="match_parent"
             android:background="@color/Light_gray"/>
         <TextView
+            android:gravity="center"
             android:onClick="schedule_setting"
             android:tag="fri_5"
             android:layout_width="0dp"
@@ -396,6 +422,7 @@
             android:layout_weight="0.5"
             android:text="2"/>
         <TextView
+            android:gravity="center"
             android:onClick="schedule_setting"
             android:tag="mon_6"
             android:layout_width="0dp"
@@ -406,6 +433,7 @@
             android:layout_height="match_parent"
             android:background="@color/Light_gray"/>
         <TextView
+            android:gravity="center"
             android:onClick="schedule_setting"
             android:tag="tue_6"
             android:layout_width="0dp"
@@ -416,6 +444,7 @@
             android:layout_height="match_parent"
             android:background="@color/Light_gray"/>
         <TextView
+            android:gravity="center"
             android:onClick="schedule_setting"
             android:tag="wed_6"
             android:layout_width="0dp"
@@ -426,6 +455,7 @@
             android:layout_height="match_parent"
             android:background="@color/Light_gray"/>
         <TextView
+            android:gravity="center"
             android:onClick="schedule_setting"
             android:tag="thu_6"
             android:layout_width="0dp"
@@ -436,6 +466,7 @@
             android:layout_height="match_parent"
             android:background="@color/Light_gray"/>
         <TextView
+            android:gravity="center"
             android:onClick="schedule_setting"
             android:tag="fri_6"
             android:layout_width="0dp"
@@ -461,6 +492,7 @@
             android:layout_weight="0.5"
             android:text="3"/>
         <TextView
+            android:gravity="center"
             android:onClick="schedule_setting"
             android:tag="mon_7"
             android:layout_width="0dp"
@@ -471,6 +503,7 @@
             android:layout_height="match_parent"
             android:background="@color/Light_gray"/>
         <TextView
+            android:gravity="center"
             android:onClick="schedule_setting"
             android:tag="tue_7"
             android:layout_width="0dp"
@@ -481,6 +514,7 @@
             android:layout_height="match_parent"
             android:background="@color/Light_gray"/>
         <TextView
+            android:gravity="center"
             android:onClick="schedule_setting"
             android:tag="wed_7"
             android:layout_width="0dp"
@@ -491,6 +525,7 @@
             android:layout_height="match_parent"
             android:background="@color/Light_gray"/>
         <TextView
+            android:gravity="center"
             android:onClick="schedule_setting"
             android:tag="thu_7"
             android:layout_width="0dp"
@@ -501,6 +536,7 @@
             android:layout_height="match_parent"
             android:background="@color/Light_gray"/>
         <TextView
+            android:gravity="center"
             android:onClick="schedule_setting"
             android:tag="fri_7"
             android:layout_width="0dp"
@@ -526,6 +562,7 @@
             android:layout_weight="0.5"
             android:text="4"/>
         <TextView
+            android:gravity="center"
             android:onClick="schedule_setting"
             android:tag="mon_8"
             android:layout_width="0dp"
@@ -536,6 +573,7 @@
             android:layout_height="match_parent"
             android:background="@color/Light_gray"/>
         <TextView
+            android:gravity="center"
             android:onClick="schedule_setting"
             android:tag="tue_8"
             android:layout_width="0dp"
@@ -546,6 +584,7 @@
             android:layout_height="match_parent"
             android:background="@color/Light_gray"/>
         <TextView
+            android:gravity="center"
             android:onClick="schedule_setting"
             android:tag="wed_8"
             android:layout_width="0dp"
@@ -556,6 +595,7 @@
             android:layout_height="match_parent"
             android:background="@color/Light_gray"/>
         <TextView
+            android:gravity="center"
             android:onClick="schedule_setting"
             android:tag="thu_8"
             android:layout_width="0dp"
@@ -566,6 +606,7 @@
             android:layout_height="match_parent"
             android:background="@color/Light_gray"/>
         <TextView
+            android:gravity="center"
             android:onClick="schedule_setting"
             android:tag="fri_8"
             android:layout_width="0dp"
@@ -591,6 +632,7 @@
             android:layout_weight="0.5"
             android:text="5"/>
         <TextView
+            android:gravity="center"
             android:onClick="schedule_setting"
             android:tag="mon_9"
             android:layout_width="0dp"
@@ -601,6 +643,7 @@
             android:layout_height="match_parent"
             android:background="@color/Light_gray"/>
         <TextView
+            android:gravity="center"
             android:onClick="schedule_setting"
             android:tag="tue_9"
             android:layout_width="0dp"
@@ -611,6 +654,7 @@
             android:layout_height="match_parent"
             android:background="@color/Light_gray"/>
         <TextView
+            android:gravity="center"
             android:onClick="schedule_setting"
             android:tag="wed_9"
             android:layout_width="0dp"
@@ -621,6 +665,7 @@
             android:layout_height="match_parent"
             android:background="@color/Light_gray"/>
         <TextView
+            android:gravity="center"
             android:onClick="schedule_setting"
             android:tag="thu_9"
             android:layout_width="0dp"
@@ -631,6 +676,7 @@
             android:layout_height="match_parent"
             android:background="@color/Light_gray"/>
         <TextView
+            android:gravity="center"
             android:onClick="schedule_setting"
             android:tag="fri_9"
             android:layout_width="0dp"
@@ -656,6 +702,7 @@
             android:layout_weight="0.5"
             android:text="6"/>
         <TextView
+            android:gravity="center"
             android:onClick="schedule_setting"
             android:tag="mon_10"
             android:layout_width="0dp"
@@ -666,6 +713,7 @@
             android:layout_height="match_parent"
             android:background="@color/Light_gray"/>
         <TextView
+            android:gravity="center"
             android:onClick="schedule_setting"
             android:tag="tue_10"
             android:layout_width="0dp"
@@ -676,6 +724,7 @@
             android:layout_height="match_parent"
             android:background="@color/Light_gray"/>
         <TextView
+            android:gravity="center"
             android:onClick="schedule_setting"
             android:tag="wed_10"
             android:layout_width="0dp"
@@ -686,6 +735,7 @@
             android:layout_height="match_parent"
             android:background="@color/Light_gray"/>
         <TextView
+            android:gravity="center"
             android:onClick="schedule_setting"
             android:tag="thu_10"
             android:layout_width="0dp"
@@ -696,6 +746,7 @@
             android:layout_height="match_parent"
             android:background="@color/Light_gray"/>
         <TextView
+            android:gravity="center"
             android:onClick="schedule_setting"
             android:tag="fri_10"
             android:layout_width="0dp"

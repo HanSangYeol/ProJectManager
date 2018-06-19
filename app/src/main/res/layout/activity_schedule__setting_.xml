@@ -134,55 +134,89 @@
             android:layout_height="30dp"
             android:layout_margin="5dp"
             android:background="#D667CD" />
+
         <ImageView
             android:onClick="set_color"
             android:tag="FF4484"
             android:layout_margin="5dp"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:background="#FF4484"/>
+            android:background="#FF4484" />
+
         <ImageView
             android:onClick="set_color"
             android:tag="FFA13B"
             android:layout_margin="5dp"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:background="#FFA13B"/>
+            android:background="#FFA13B" />
+
         <ImageView
             android:onClick="set_color"
             android:tag="ECC216"
             android:layout_margin="5dp"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:background="#ECC216"/>
+            android:background="#ECC216" />
+
         <ImageView
             android:onClick="set_color"
             android:tag="137C41"
             android:layout_margin="5dp"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:background="#137C41"/>
+            android:background="#137C41" />
+
         <ImageView
             android:onClick="set_color"
             android:tag="27BC7A"
             android:layout_margin="5dp"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:background="#27BC7A"/>
+            android:background="#27BC7A" />
+
         <ImageView
             android:onClick="set_color"
             android:tag="00A4F0"
             android:layout_margin="5dp"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:background="#00A4F0"/>
+            android:background="#00A4F0" />
+
         <ImageView
             android:onClick="set_color"
             android:tag="5F5AD9"
             android:layout_margin="5dp"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:background="#5F5AD9"/>
+            android:background="#5F5AD9" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="선택 색상"
+            android:textColor="@color/dark_gray"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/select_color"
+                android:layout_margin="5dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+        </LinearLayout>
+
     </LinearLayout>
 
 </LinearLayout>
