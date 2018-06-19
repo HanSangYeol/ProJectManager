@@ -120,47 +120,65 @@
         android:gravity="center">
 
         <ImageView
+            android:onClick="set_color"
+            android:tag="8C88FF"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_margin="5dp"
             android:background="#8C88FF" />
 
         <ImageView
+            android:onClick="set_color"
+            android:tag="D667CD"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_margin="5dp"
             android:background="#D667CD" />
         <ImageView
+            android:onClick="set_color"
+            android:tag="FF4484"
             android:layout_margin="5dp"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:background="#FF4484"/>
         <ImageView
+            android:onClick="set_color"
+            android:tag="FFA13B"
             android:layout_margin="5dp"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:background="#FFA13B"/>
         <ImageView
+            android:onClick="set_color"
+            android:tag="ECC216"
             android:layout_margin="5dp"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:background="#ECC216"/>
         <ImageView
+            android:onClick="set_color"
+            android:tag="137C41"
             android:layout_margin="5dp"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:background="#137C41"/>
         <ImageView
+            android:onClick="set_color"
+            android:tag="27BC7A"
             android:layout_margin="5dp"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:background="#27BC7A"/>
         <ImageView
+            android:onClick="set_color"
+            android:tag="00A4F0"
             android:layout_margin="5dp"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:background="#00A4F0"/>
         <ImageView
+            android:onClick="set_color"
+            android:tag="5F5AD9"
             android:layout_margin="5dp"
             android:layout_width="30dp"
             android:layout_height="30dp"

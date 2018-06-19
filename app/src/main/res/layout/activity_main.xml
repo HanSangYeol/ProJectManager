@@ -8,6 +8,21 @@
     tools:context="kr.ac.doowon.projectmanager.MainActivity">
 
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center|left">
+
+        <TextView
+            android:id="@+id/titletxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="시간표"
+            android:textColor="@color/black"
+            android:textSize="28sp" />
+    </LinearLayout>
+
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -21,9 +36,9 @@
             <fragment
                 android:id="@+id/schedule_fragment"
                 class="kr.ac.doowon.projectmanager.Fragment.Fragment_schedule"
-                tools:layout="@layout/fragment_schedule"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"></fragment>
+                android:layout_height="match_parent"
+                tools:layout="@layout/fragment_schedule"></fragment>
         </LinearLayout>
 
         <LinearLayout
@@ -36,8 +51,8 @@
                 android:id="@+id/assignment_fragment"
                 class="kr.ac.doowon.projectmanager.Fragment.Fragment_assignment"
                 android:layout_width="match_parent"
-                tools:layout="@layout/fragment_assignment"
-                android:layout_height="match_parent"></fragment>
+                android:layout_height="match_parent"
+                tools:layout="@layout/fragment_assignment"></fragment>
         </LinearLayout>
 
         <LinearLayout
@@ -50,8 +65,8 @@
                 android:id="@+id/notice_fragment"
                 class="kr.ac.doowon.projectmanager.Fragment.Fragment_notice"
                 android:layout_width="match_parent"
-                tools:layout="@layout/fragment_notice"
-                android:layout_height="match_parent"></fragment>
+                android:layout_height="match_parent"
+                tools:layout="@layout/fragment_notice"></fragment>
         </LinearLayout>
     </FrameLayout>
 
